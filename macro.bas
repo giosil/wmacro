@@ -19,6 +19,7 @@ Public Type InvoiceTotals
 
 End Type
 
+' Macro
 Sub LoadInvoices()
 
 Dim dataFile As String, textline As String, row As Integer, totRow As Boolean, vatRow As Boolean, inv As Invoice, tot As InvoiceTotals
